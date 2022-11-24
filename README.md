@@ -1,3 +1,4 @@
 # Research-methods_PaperReading
 =============
-# Import Data\
+# Import Data
+Using yfinance to get "AAPL" stock's information including "Close", "Volume", "Date"
