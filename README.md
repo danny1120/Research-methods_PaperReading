@@ -15,6 +15,7 @@
         -   $Q_{a}^{+}\left ( x \right ) = \lbrace \{ x:prob\left ( \Delta_{P}< x\right )< \alpha \ or\ prob\left ( \Delta_{P}>  x\right )>         1 - \alpha  \rbrace \}$
     -   ##### Restrict the distribution conditional
         -    V0 be constant in time and dependent only on the equity.
-        -    V0 = mean of the volume and times lens of data
+        -    V0 = mean of the volume and times lens of data.
 
 ## Acknowledgements
+D.Bozdog, I.Florescu, K.Khashanah, J.Wang, "Rare Events Analysis of High-Frequency Equity Data", in Wilmott Journal, pp. 74-81, 2011.
