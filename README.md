@@ -30,7 +30,7 @@ High-frequency trading,  Average daily volume,  Trading strategy
 ## Acknowledgements
 D.Bozdog, I.Florescu, K.Khashanah, J.Wang, "Rare Events Analysis of High-Frequency Equity Data", in Wilmott Journal, pp. 74-81, 2011.
 
-## Python method
+# Python method
 ### Pakage import
 ```python
 !pip install yfinance
@@ -68,7 +68,7 @@ n = (len(close))                                                                
 - Fourth. Initialization v_sum in every loop.
 - Fifth. Setting conditional v_sum < V0. 
 - Sixth. Input close price subtraction to empty list that we built before.
-- Seventh. Input max(close) and min(close) date to empty list that we built before.
+- Last. Input max(close) and min(close) date to empty list that we built before.
     - The reason that I use max(close) and min(close) to represent date, because Max(delta(p)) is subtraction of max(close) and min(close).
 
 ```python
@@ -105,17 +105,3 @@ print((max(close))-(min(close)))
 ```
 #### Result:
 Max(delta(p)) = 51.295257568359375
-
-
-
-
-
-
-
-
-
-
-
-
-
-
