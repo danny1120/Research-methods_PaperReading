@@ -28,3 +28,4 @@ High-frequency trading, Average daily volume, Trading strategy
 
 ## Acknowledgements
 D.Bozdog, I.Florescu, K.Khashanah, J.Wang, "Rare Events Analysis of High-Frequency Equity Data", in Wilmott Journal, pp. 74-81, 2011.
+
