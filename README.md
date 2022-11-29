@@ -96,6 +96,8 @@ Max(delta(p)) = 51.295257568359375
 
 ### Verify
 
+#### Using max(close) and min(close) to subtraction
+
 ```python
 
 print((max(close))-(min(close)))
