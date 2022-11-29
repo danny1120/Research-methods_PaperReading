@@ -61,13 +61,22 @@ n = (len(close))                                                                
 ```
 ### Finding Max(delta(p))
 
+#### Steps
+- First. Giving two empty list for delta(p) and date of Max(delta(p)).
+- Second. Using for loop range started from last record(251) to first record(1).
+- Third. Using another for loop range started from Penultimate record(250) to first record(1).
+- Fourth. Initialization v_sum in every loop.
+- Fifth. Setting conditional v_sum < V0. 
+- Sixth. Input close price subtraction to empty list that we built before.
+- Seventh. Input max(close) and min(close) date to empty list that we built before.
+    - The reason that I use max(close) and min(close) to represent date, because Max(delta(p)) is subtraction of max(close) and min(close).
+
 ```python
 V0 = np.mean(volume)*(len(data)/4) 
 
 s_diff = []
 s_date = []
 for h in range(n-1, 0, -1):                                                                  #251-0 一定要用-1因為默認0開始
-  v_sum = 0                                                                                  #初始化 v_sum
   for i in range(n-2, 0, -1):                                                                #250-0
     v_sum = 0                                                                                #初始化 v_sum
     if (v_sum < V0):                                                                         #若v_sum小於V0
@@ -81,6 +90,19 @@ for h in range(n-1, 0, -1):                                                     
 print(max(s_diff))                                                                           #print max(delta(p))
 print(s_date[0])                                                                             #print max(delta(p))之date)
 ```
+
+#### Result:
+Max(delta(p)) = 51.295257568359375
+
+### Verify
+
+```python
+
+print((max(close))-(min(close)))
+
+```
+#### Result:
+Max(delta(p)) = 51.295257568359375
 
 
 
