@@ -3,6 +3,9 @@
 In this work present a methodology to detect rare events which are defined as large price movements relative to the volume traded, and provide methods to calibrate trading rules based on the detection of these events and illustrate for a particular trading rule.
 The methodology that we have developed is based on nonparametric statistics and makes no assumption about the distribution of the random variables in the study.
 
+## Keywords 
+High-frequency trading, Average daily volume, Trading strategy
+
 ## Dataset Description
 - ### Import Data
     - Using yfinance to get "AAPL" stock's information .
