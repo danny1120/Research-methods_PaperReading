@@ -23,6 +23,7 @@ High-frequency trading,  Average daily volume,  Trading strategy
     -   ##### Restrict the distribution conditional.
         -    V0 be constant in time and dependent only on the equity.
         -    V0 = mean of the volume and times lens of data.
+        -    <img width="306" alt="Screenshot_1" src="https://user-images.githubusercontent.com/83726621/204680981-2c5569a0-1afa-4a64-9247-587b736ce1ec.png">
     -   ##### The maximum price movement given the cumulative volume between two trades is less than a value V0, which is specific for each equity.
         -   v_sum $=\lbrace V_k + V_{k+1} +... V_n < V_{0} \rbrace$ 
         
